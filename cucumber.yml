@@ -10,4 +10,3 @@ headless: BROWSER=headless
 html: --format html --out=reports/report.html
 json: --format json --out=reports/report.json
 pretty: --format pretty
-progress: --format progress
