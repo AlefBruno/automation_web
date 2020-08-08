@@ -1,0 +1,12 @@
+automation_practice:
+  accounts:
+    login:
+      inválidos:
+        user: 'user_not_found@notfound.com'
+        passwd: 'qwerty123'
+        message: 'Authentication failed.'
+      branco:
+        user: ''
+        passwd: ''
+        message: 'An email address required.'
+
