@@ -1,7 +1,7 @@
 pipeline {
   agent {
     docker {
-      image 'alefbruno/automation_ruby'
+      image 'alefbruno/automation_ruby:0.1.0'
     }
   }
   stages {
