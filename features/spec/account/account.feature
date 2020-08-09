@@ -11,4 +11,3 @@ Funcionalidade: Account
     E iniciar o cadastro do site 
     Quando efetuar o cadastro do usuário
     Então validar que o cadastrado é realizado com sucesso
-    E realizar o logout no site
