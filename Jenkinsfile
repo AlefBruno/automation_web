@@ -6,14 +6,14 @@ pipeline {
   }
   stages {
     stage('Instalar dependências') {
-      step {
+      steps {
         echo 'Instalando .....'
         sh 'rm -f Gemfile.lock'
         sh 'bundle install'
       }
     }
     stage('Testes') {
-      step {
+      steps {
         echo 'Executando os Teste .....'
         sh 'bundle exec cucumber -p ci'
       }
